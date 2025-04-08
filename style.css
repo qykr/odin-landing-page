@@ -6,7 +6,7 @@
     --light-blue: #3882F6;
     --primary-light: #F9FAF8;
     --secondary-light: #E5E7EB;
-    --h1-clamp: clamp(1.5rem, 5vw, 3rem);
+    --h1-size: clamp(1.5rem, 5vw, 3rem);
     --h2-clamp: clamp(1.2rem, 5vw, 2rem);
 }
 
@@ -23,7 +23,7 @@ main {
 }
 
 h1 {
-    font-size: var(--h1-clamp);
+    font-size: var(--h1-size);
 }
 
 h2 {
