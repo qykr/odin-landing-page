@@ -7,7 +7,7 @@
     --primary-light: #F9FAF8;
     --secondary-light: #E5E7EB;
     --h1-size: clamp(1.5rem, 5vw, 3rem);
-    --h2-clamp: clamp(1.2rem, 5vw, 2rem);
+    --h2-size: clamp(1.2rem, 5vw, 2rem);
 }
 
 /* General selectors */
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    font-size: var(--h2-clamp);
+    font-size: var(--h2-size);
 }
 
 /* Navigation bar */
